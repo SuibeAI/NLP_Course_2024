@@ -36,7 +36,7 @@ print('<UNK>:', word2idx['<UNK>'])
 # 处理句子数据
 def preprocess_sentence(sentence,  word2idx):
     x = np.zeros(len(word2idx)) # BoW不需要不考虑<PAD>
-    words = sentence.split()
+    words = str(sentence).split()
     words = [w.lower() for w in words]
     for w in words:
         if w in word2idx:
