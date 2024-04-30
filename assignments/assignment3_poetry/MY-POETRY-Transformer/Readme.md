@@ -20,16 +20,19 @@
    print(content)
    ```
 
+## 完善代码
+检查所有Todo位置
+
 ## 训练模型
 训练
 ```
-cd assignments/assignment3_poetry/MY-POETRY
+cd assignments/assignment3_poetry/MY-POETRY-Transformer
 python train.py
 ```
 
 ## 测试模型
 测试
 ```
-cd assignments/assignment3_poetry/MY-POETRY
+cd assignments/assignment3_poetry/MY-POETRY-Transformer
 python demo.py
 ```
