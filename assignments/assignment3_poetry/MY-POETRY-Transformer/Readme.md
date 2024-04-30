@@ -36,3 +36,9 @@ python train.py
 cd assignments/assignment3_poetry/MY-POETRY-Transformer
 python demo.py
 ```
+
+## FAQ
+若缺失python包，可通过pip install安装，例如缺失zhconv
+```
+pip install zhconv
+```
